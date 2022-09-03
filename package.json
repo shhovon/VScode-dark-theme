@@ -1,0 +1,34 @@
+{
+  "name": "shovon-dark",
+  "displayName": "Shovon Dark",
+  "description": "A test theme for practice purpose",
+  "version": "0.0.1",
+  "publisher": "Shovon Roy",
+  "repository:" {
+    "type":"git",
+    "url": "https://github.com/shhovon/VScode-dark-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "shovon",
+    "Shovon Roy",
+    "shovon-dark",
+    "Shovon Dark"
+  ],
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Shovon Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Shovon Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
